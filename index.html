@@ -5,11 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>assurif.ai demo</title>
-    <script type="module" crossorigin src="./assets/index-87b7bb84.js"></script>
-    <link rel="stylesheet" href="./assets/index-fcf52ba1.css">
+        <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
-    
+    <div id="root">
+        <iframe src="http://18.222.120.190:8501/" title="Streamlit App"></iframe>
+    </div>
   </body>
 </html>
